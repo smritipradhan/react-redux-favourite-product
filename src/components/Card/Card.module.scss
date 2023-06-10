@@ -1,0 +1,34 @@
+.productItem {
+  height: 280px;
+  width: 230px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid black;
+  .description {
+    display: flex;
+    flex-wrap: wrap !important;
+    align-content: space-evenly;
+  }
+  .productiImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      border-radius: 10px;
+      height: 189px;
+      width: 223px;
+    }
+  }
+  .productName {
+    margin-top: 10px;
+  }
+  .priceFavourite {
+    display: flex;
+    justify-content: space-between;
+    .price {
+      display: flex;
+      margin-top: 10px;
+    }
+  }
+}
