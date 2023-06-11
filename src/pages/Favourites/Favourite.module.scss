@@ -1,3 +1,11 @@
 .favouriteContainer {
-  height: 100%;
+  display: flex;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 40px;
+  .noFavouriteProductsFoound {
+    display: flex;
+    margin: auto;
+    color: white;
+  }
 }
